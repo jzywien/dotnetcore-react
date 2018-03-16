@@ -5,6 +5,7 @@ dotnet: 2.1.4
 
 install:
 - dotnet restore
+- npm install
 
 script:
 - dotnet build
